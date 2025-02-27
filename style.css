@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Roboto Condensed;
+}
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width:1180px ;
+    margin-inline: 140px;
+    padding-inline: 20px;
+    overflow: hidden;
+
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.firstbtn{
+    background-color: red;
+    padding-block: 8px;
+    padding-inline: 17px;
+}
+
+.header1{
+    background-image:url(pr2.jpeg) ;
+    /* background-position: right; */
+    background-size: 1700px;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 698px;
+    /* width: 1440px; */
+    color: white;
+    padding-top: 35px;
+    opacity: 0.89;
+    
+  
+}
+.navclass{
+    justify-content: space-between;
+}
+
+
+.logo{
+   min-height: 20px;
+
+}
+
+.leftnav p{
+     font-size: 1.5rem;
+     font-weight: 700;
+     margin-left: 10px;
+}
+
+.rightnav ul{
+   gap: 60px;
+   font-size: 1rem;
+   font-weight: 700;
+}
+
+.header-text{
+    font-size: 6rem;
+    font-weight: 700;
+    margin-top: 180px;
+
+}
+span{
+    color: red;
+  }
+
+.header-text p{
+    width: 634px;
+   
+}
+.camp{
+    max-width: 700px;
+}
+
+.white-box{
+    background-color: white;
+   color: black;
+    height: 80px;
+    width: 510px;
+margin-left: 450px;
+margin-top: 100px;
+font-size: 1rem;
+font-weight: 700;
+gap: 80px;
+text-align: center;
+justify-content: center;
+box-shadow: 5px 10px 11px ;
+
+
+}
+.box1 p{
+   color: red;
+}
+
+
+
+.header2{
+    background-color: rgb(216, 216, 244);
+     height: 670px;
+    
+     background-color:#CDDCEA;
+
+}
+.mainheader{
+    gap: 40px;
+}
+
+.left img{
+    height: 500px;
+    width: 650px;
+
+}
+
+.right{
+    flex-direction: column;
+}
+.line{
+    background-color: red;
+    height: 100px;
+    width: 10px;
+}
+.heading{
+    gap: 10px;
+    font-size: 1.3rem;
+}
+.head2{
+    color: grey;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+.head3{
+    color: grey;
+    font-size: 0.9rem;
+    margin-top: 30px;
+}
+
+.head4{
+    margin-top: 130px;
+    /* justify-content: flex-start;
+    align-items: flex-start; */
+    margin-left: -350px;
+   
+}
+
+footer{
+    background-color: black;
+    height: 310px;
+}
+.footer1{
+    justify-content: space-between;
+    color: white;
+    padding-top: 70px;
+}
+
+.lefttext{
+     color: white;
+     font-size: 2.5rem;
+     font-weight: 700;
+     width: 500px;
+}
+ .righttext{
+    gap: 30px;
+   
+ }
+
+ .foot{
+    color: grey;
+    justify-content: space-between;
+    margin-top: 100px;
+ }
+ .email{
+    gap: 5px;
+ }
+ .email i{
+color: white;
+ }
+
+ .points{
+    gap: 40px;
+  
+ }
+ 
+ 
+
